@@ -13,7 +13,7 @@ name = "BITCOIN PLUS"
 issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
 is_asset_anchored = false
 display_decimals = 7
-desc = "Bitcoin (abbreviation: BTC[a] or XBT[b]; sign: ₿) is a protocol which implements a highly available, public, and decentralized ledger.
+desc = "Bitcoin (abbreviation: BTC[a] or XBT[b]; sign: ₿) is a protocol which implements a highly available, public, and decentralized ledger."
 image = "https://best-coin.github.io/btcplus.jpg"
 conditions = "There will be 100 billion tokens in existence."
 
