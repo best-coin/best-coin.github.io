@@ -1,32 +1,21 @@
-# MagicCrypto <MagicCrypto.github.io>
 VERSION="2.2.0"
 NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
 
 [DOCUMENTATION]
-ORG_NAME="MagicCrypto"
-ORG_URL="https://magiccrypto.github.io/"
-ORG_LOGO = "https://magiccrypto.github.io/favicon.ico"
-ORG_OFFICIAL_EMAIL="0xMagicCrypto@gmail.com"
-ORG_SUPPORT_EMAIL="0xMagicCrypto@gmail.com"
-ORG_TWITTER="0xMagicCrypto"
-ORG_DESCRIPTION="MagicCrypto: Create Value to both Crypto Space and Real World!"
+ORG_NAME=""
+ORG_URL=""
+ORG_LOGO = ""
+ORG_OFFICIAL_EMAIL=""
+ORG_SUPPORT_EMAIL=""
+ORG_TWITTER=""
+ORG_DESCRIPTION=""
 
 [[CURRENCIES]]
-code = "MVT"
-name = "MVote"
-issuer = "GDPTX2Z3HTJKCHTT5JHCL7M5MD7P2HVV7QUDCTBIHW2BYLO3XR4VSRSA"
+code = ""
+name = ""
+issuer = ""
 is_asset_anchored = false
 display_decimals = 7
-desc="MagicVoTe (MVT or MVote) is a Sustainable and Open Voting Protocol for Voting-based Farm Platforms. It introduces an interesting mechanism of calculating hourly MVT reward by incentivizing not only voting but also LP and burning. Visit https://magiccrypto.github.io/mvote.html for details. The total supply of MVT is 26,666,660 only, which is also deflationary due to multiple utility of MVT."
-image="https://magiccrypto.github.io/icons/MVOTEicon.png"
-conditions="90% rewarded to voters via a deflationary distribution so that reward would \"never\" end: initial day is 24,000, and next day is 0.999*LastDay."
-
-[[CURRENCIES]]
-code = "TESTVOTE"
-name = "TESTVOTE"
-issuer = "GDPTX2Z3HTJKCHTT5JHCL7M5MD7P2HVV7QUDCTBIHW2BYLO3XR4VSRSA"
-is_asset_anchored = false
-display_decimals = 7
-desc="TESTVOTE is a test token of MVT (MVote). It can also prevent the copies of MVT token. It safeguards the value of MVT."
-image="https://magiccrypto.github.io/icons/MTESTicon.png"
-conditions="90% rewarded to voters via a deflationary distribution so that reward would \"never\" end: initial day is 24,000, and next day is 0.999*LastDay."
+desc = ""
+image = ""
+conditions=""
