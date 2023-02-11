@@ -2,67 +2,77 @@ VERSION="2.2.0"
 NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
 
 [DOCUMENTATION]
-ORG_NAME = ""
-ORG_URL = ""
-ORG_LOGO = ""
-ORG_DESCRIPTION = ""
+ORG_NAME = "Stellar XLM Developer"
+ORG_URL = "https://github.io"
+ORG_LOGO = "https://best-coin.github.io/GitHub-logo.png"
+ORG_DESCRIPTION = "GitHub is a code hosting platform for version control and collaboration"
 
 [[CURRENCIES]]
-code = ""
-name = ""
+code = "BTCPLUS"
+name = "BITCOIN PLUS"
 issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
 is_asset_anchored = false
 display_decimals = 7
-desc = ""
-image = ""
-conditions = ""
+desc = "Bitcoin (abbreviation: BTC[a] or XBT[b]; sign: ₿) is a protocol which implements a highly available, public, and decentralized ledger.
+image = "https://best-coin.github.io/btcplus.jpg"
+conditions = "There will be 100 billion tokens in existence."
 
 [[CURRENCIES]]
-code = ""
-name = ""
+code = "ETHPLUS"
+name = " ETHEREUM PLUS"
 issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
 is_asset_anchored = false
 display_decimals = 7
-desc = ""
-image = ""
-conditions = ""
+desc = "Ethereum is a decentralized, open-source blockchain with smart contract functionality."
+image = "https://best-coin.github.io/ethplus.jpg"
+conditions = "There will be 100 billion tokens in existence."
 
 [[CURRENCIES]]
-code = ""
-name = ""
+code = "BNBPLUS"
+name = "BINANCE PLUS"
 issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
 is_asset_anchored = false
 display_decimals = 7
-desc = ""
-image = ""
-conditions = ""
+desc = "BNB Chain supports smart contracts and is compatible with the ethereum virtual machine (EVM)."
+image = "https://best-coin.github.io/bnbplus.jpg"
+conditions = "There will be 100 billion tokens in existence."
 
 [[CURRENCIES]]
-code = ""
-name = ""
+code = "LTCPLUS"
+name = "LITECOIN PLUS"
 issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
 is_asset_anchored = false
 display_decimals = 7
-desc = ""
-image = ""
-conditions = ""
+desc = "Litecoin (Abbreviation: LTC; sign: Ł) is a decentralized peer-to-peer cryptocurrency and open-source software project released under the MIT/X11 license."
+image = "https://best-coin.github.io/ltcplus.jpg"
+conditions = "There will be 100 billion tokens in existence."
 
 [[CURRENCIES]]
-code = ""
-name = ""
+code = "XRPPLUS"
+name = "RIPPLE PLUS"
 issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
 is_asset_anchored = false
 display_decimals = 7
-desc = ""
-image = ""
-conditions = ""
+desc = "Ripple is a real-time gross settlement system, currency exchange and remittance network created by Ripple Labs Inc., a US-based technology company."
+image = "https://best-coin.github.io/xrpplus.jpg"
+conditions = "There will be 100 billion tokens in existence."
 
 [[CURRENCIES]]
-code = ""
-name = ""
+code = "FIDRPLUS"
+name = "FIXEDIDR PLUS"
 issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
 is_asset_anchored = false
 display_decimals = 7
-desc = ""
-image = ""
-conditions = ""
+desc = "FIDR is a digital asset that operates free of any central control or the oversight of banks or governments."
+image = "https://best-coin.github.io/fidrplus.jpg"
+conditions = "There will be 100 billion tokens in existence."
+
+[[CURRENCIES]]
+code = "AQUAPLUS"
+name = "AQUARIUS PLUS"
+issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
+is_asset_anchored = false
+display_decimals = 7
+desc = "Aquarius is a new liquidity management layer for Stellar."
+image = "https://best-coin.github.io/aquaplus.jpg"
+conditions = "There will be 100 billion tokens in existence."
