@@ -10,7 +10,57 @@ ORG_DESCRIPTION = ""
 [[CURRENCIES]]
 code = ""
 name = ""
-issuer = ""
+issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
+is_asset_anchored = false
+display_decimals = 7
+desc = ""
+image = ""
+conditions = ""
+
+[[CURRENCIES]]
+code = ""
+name = ""
+issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
+is_asset_anchored = false
+display_decimals = 7
+desc = ""
+image = ""
+conditions = ""
+
+[[CURRENCIES]]
+code = ""
+name = ""
+issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
+is_asset_anchored = false
+display_decimals = 7
+desc = ""
+image = ""
+conditions = ""
+
+[[CURRENCIES]]
+code = ""
+name = ""
+issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
+is_asset_anchored = false
+display_decimals = 7
+desc = ""
+image = ""
+conditions = ""
+
+[[CURRENCIES]]
+code = ""
+name = ""
+issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
+is_asset_anchored = false
+display_decimals = 7
+desc = ""
+image = ""
+conditions = ""
+
+[[CURRENCIES]]
+code = ""
+name = ""
+issuer = "GD6PJ4DVY2ERCN25TSGOOQ4OLTSC2VCI7VMPJVFCCRGITDMWWX5IQ25U"
 is_asset_anchored = false
 display_decimals = 7
 desc = ""
