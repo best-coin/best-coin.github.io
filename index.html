@@ -1,51 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.0.1/stellar-sdk.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-freighter-api/1.1.2/index.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="homepage.css">
-    <!-- below mvote external js file -->
-    <script type="text/javascript" src="basic.js"></script>
-    <title>Best-Coin
-   </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Best Coin - Stellar Tokens</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 40px;
+      color: #ffd700;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    }
+
+    .tokens {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.4);
+    }
+
+    .token-logo {
+      display: block;
+      margin: 0 auto 20px;
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      border-radius: 50%;
+      background-color: #fff;
+      padding: 10px;
+    }
+
+    .token-name {
+      text-align: center;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .token-details {
+      text-align: center;
+      font-size: 1em;
+    }
+
+    footer {
+      background-color: rgba(0,0,0,0.6);
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+    }
+
+    footer p {
+      margin: 10px 0;
+      font-size: 1em;
+    }
+
+    /* Responsive adjustments */
+    @media(max-width: 768px){
+      header h1 {
+        font-size: 2em;
+      }
+      section h2 {
+        font-size: 2em;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container" id="blur">
-        <div class="top_navbar">
-            <div class="top_navbar_ctn">
-                <div class="top-left">
-                    <div class="top-left-ctn">
-                        <div class="home-icon">
-                            <a href="index.html">
-                                </a>
-                                <div class="main">
-                    <header class="explore">
-                        <div class="explore-left">
-                            <h3>Welcome to</h3>
-                        </div>
-                      </a>
-                        </div>
- </div>
-                                  
-### Stellar Network Platform
 
-</div>
-  
-        <div class="wrapper">
-            <div class="content">
-                <div class="content_head">
-                    <h2><b>Stellar Development Foundation</b></h2>
-</div>
-            
-                </footer>
+<header>
+  <h1>Best Coin</h1>
+  <p>Explore Stellar Tokens like BTCPLUS, AQUAPLUS, and more. Your gateway to stellar crypto assets!</p>
+</header>
+
+<section>
+  <h2>Featured Stellar Tokens</h2>
+  <div class="tokens">
+    <!-- Token Card: BTCPLUS -->
+    <div class="card">
+      <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="BTCPLUS Logo" class="token-logo" />
+      <div class="token-name">BTCPLUS</div>
+      <div class="token-details">
+        <p><strong>Stellar Token</strong></p>
+        <p>Wrapped Bitcoin on Stellar</p>
+        <p><strong>Price:</strong> $45,000</p>
+        <p><strong>Market Cap:</strong> $850M</p>
+      </div>
     </div>
+    <!-- Token Card: AQUAPLUS -->
+    <div class="card">
+      <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="AQUAPLUS Logo" class="token-logo" />
+      <div class="token-name">AQUAPLUS</div>
+      <div class="token-details">
+        <p><strong>Stellar Token</strong></p>
+        <p>Decentralized Water Token</p>
+        <p><strong>Price:</strong> $0.25</p>
+        <p><strong>Market Cap:</strong> $50M</p>
+      </div>
+    </div>
+    <!-- Add more tokens as needed -->
+    <!-- Example Token -->
+    <div class="card">
+      <img src="https://cryptologos.cc/logos/tether-usdt-logo.png" alt="USDT Logo" class="token-logo" />
+      <div class="token-name">USDT</div>
+      <div class="token-details">
+        <p><strong>Stellar Token</strong></p>
+        <p>Stablecoin USD</p>
+        <p><strong>Price:</strong> $1.00</p>
+        <p><strong>Market Cap:</strong> $62B</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Best Coin. All rights reserved.</p>
+  <p>Visit our <a href="https://best-coin.github.io" style="color:#ffd700;">website</a> for more info.</p>
+</footer>
 
 </body>
 </html>
